@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
+        <module name="config-client-demo" />
         <module name="configdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
+      <module name="config-client-demo" target="1.8" />
       <module name="config-demo" target="1.8" />
       <module name="configdemo" target="1.8" />
       <module name="ManagerBoot" target="1.5" />
