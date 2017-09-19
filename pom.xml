@@ -17,6 +17,7 @@
   <modules>
     <module>config</module>
     <module>config-client-demo</module>
+    <module>registry</module>
   </modules>
 
 </project>
