@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-demo
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      password: 123456
+      username: user
+  profiles:
+    active: dev
+
+server:
+  port: 8080
