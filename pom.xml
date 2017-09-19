@@ -16,7 +16,6 @@
 
   <modules>
     <module>config</module>
-    <module>config-demo</module>
   </modules>
 
 </project>
