@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ManagerBoot.iml" filepath="$PROJECT_DIR$/ManagerBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client-demo/config-client-demo.iml" filepath="$PROJECT_DIR$/config-client-demo/config-client-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
     </modules>
   </component>

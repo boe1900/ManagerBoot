@@ -9,6 +9,7 @@
         <module name="config" />
         <module name="config-client-demo" />
         <module name="configdemo" />
+        <module name="gateway" />
         <module name="registry" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="config-client-demo" target="1.8" />
       <module name="config-demo" target="1.8" />
       <module name="configdemo" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="ManagerBoot" target="1.5" />
       <module name="registry" target="1.8" />
     </bytecodeTargetLevel>
