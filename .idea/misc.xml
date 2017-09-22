@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/config-client-demo/pom.xml" />
         <option value="$PROJECT_DIR$/registry/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/service-demo-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

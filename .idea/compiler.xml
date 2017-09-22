@@ -11,9 +11,11 @@
         <module name="configdemo" />
         <module name="gateway" />
         <module name="registry" />
+        <module name="service-demo-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base-dal" target="1.8" />
       <module name="config" target="1.8" />
       <module name="config-client-demo" target="1.8" />
       <module name="config-demo" target="1.8" />
@@ -21,6 +23,7 @@
       <module name="gateway" target="1.8" />
       <module name="ManagerBoot" target="1.5" />
       <module name="registry" target="1.8" />
+      <module name="service-demo-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
