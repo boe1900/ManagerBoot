@@ -25,6 +25,7 @@
 		<spring-cloud.version>Dalston.SR3</spring-cloud.version>
 		<mybatisplus-spring-boot-starter.version>1.0.4</mybatisplus-spring-boot-starter.version>
 		<mybatisplus.version>2.1.1</mybatisplus.version>
+		<sharding-jdbc.version>1.5.4</sharding-jdbc.version>
 	</properties>
 
 	<dependencies>
@@ -37,12 +38,12 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 
-
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+			<version>5.1.44</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -66,6 +67,13 @@
 			<version>${mybatisplus.version}</version>
 		</dependency>
 		<!-- mybatis-plus end -->
+
+		<!-- 引入sharding-jdbc核心模块 -->
+		<dependency>
+			<groupId>com.dangdang</groupId>
+			<artifactId>sharding-jdbc-core</artifactId>
+			<version>${sharding-jdbc.version}</version>
+		</dependency>
 
 
 		<dependency>

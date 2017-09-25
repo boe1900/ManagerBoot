@@ -5,15 +5,6 @@ spring:
   devtools:
     restart:
       enabled: false
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zheng?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
-    username: root
-    password: 123456
-    type: com.alibaba.druid.pool.DruidDataSource
-
-
-
 
 #mybatis
 mybatis-plus:
