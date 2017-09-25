@@ -50,4 +50,11 @@ public class ServiceDemoMybatisApplication {
 		}
 		return "success";
 	}
+	@RequestMapping("query")
+	private Object queryAll() {
+		Order order = new Order();
+		order.setUserId(11L);
+		return orderMapper.selectOne(order);
+	}
+
 }
