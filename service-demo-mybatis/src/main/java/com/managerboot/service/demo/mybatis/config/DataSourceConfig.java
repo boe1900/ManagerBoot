@@ -54,6 +54,9 @@ public class DataSourceConfig {
                 .dataSourceRule(dataSourceRule)
                 .build();
 
+        TableRule.builder("t_order").generateKeyColumn("order_id");
+
+
         //具体分库分表策略，按什么规则来分
         ShardingRule shardingRule = ShardingRule.builder()
                 .dataSourceRule(dataSourceRule)

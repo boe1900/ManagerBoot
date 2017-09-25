@@ -39,13 +39,11 @@ public class ServiceDemoMybatisApplication {
 		for (int i = 0; i < 10; i++) {
 			Order order = new Order();
 			order.setUserId((long) i);
-			order.setOrderId((long) i);
 			orderMapper.insert(order);
 		}
 		for (int i = 10; i < 20; i++) {
 			Order order = new Order();
 			order.setUserId((long) i + 1);
-			order.setOrderId((long) i);
 			orderMapper.insert(order);
 		}
 		return "success";
@@ -53,7 +51,7 @@ public class ServiceDemoMybatisApplication {
 	@RequestMapping("query")
 	private Object queryAll() {
 		Order order = new Order();
-		order.setUserId(11L);
+		order.setOrderId(11L);
 		return orderMapper.selectOne(order);
 	}
 
